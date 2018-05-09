@@ -19,6 +19,8 @@
 		6D113F12204E6E9A00E9B5D0 /* SHReadThirdPartyLibraryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D113F11204E6E9A00E9B5D0 /* SHReadThirdPartyLibraryUITests.m */; };
 		6D221E32206896C7005D5D42 /* SHEchartsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D221E31206896C7005D5D42 /* SHEchartsViewController.m */; };
 		6D310F2B20A1A575006AC33D /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D310F2920A1A575006AC33D /* YYTextWeakProxy.m */; };
+		6D6C2B1D20A29F460095F1DB /* SHMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6C2B1C20A29F460095F1DB /* SHMaskView.m */; };
+		6D6C2B2420A2CAAE0095F1DB /* UIImage+Vague.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6C2B2320A2CAAE0095F1DB /* UIImage+Vague.m */; };
 		6DCC6FE120915C8B0025AF62 /* KMPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCC6FE020915C8B0025AF62 /* KMPViewController.m */; };
 		6DDE8D3F209C675A008C405E /* HTTraffic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE8D3C209C675A008C405E /* HTTraffic.m */; };
 		6DDE8D40209C675A008C405E /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE8D3D209C675A008C405E /* YYFPSLabel.m */; };
@@ -64,6 +66,10 @@
 		6D221E31206896C7005D5D42 /* SHEchartsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHEchartsViewController.m; sourceTree = "<group>"; };
 		6D310F2920A1A575006AC33D /* YYTextWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextWeakProxy.m; sourceTree = "<group>"; };
 		6D310F2A20A1A575006AC33D /* YYTextWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextWeakProxy.h; sourceTree = "<group>"; };
+		6D6C2B1B20A29F460095F1DB /* SHMaskView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHMaskView.h; sourceTree = "<group>"; };
+		6D6C2B1C20A29F460095F1DB /* SHMaskView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHMaskView.m; sourceTree = "<group>"; };
+		6D6C2B2220A2CAAE0095F1DB /* UIImage+Vague.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Vague.h"; sourceTree = "<group>"; };
+		6D6C2B2320A2CAAE0095F1DB /* UIImage+Vague.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Vague.m"; sourceTree = "<group>"; };
 		6DCC6FDF20915C8B0025AF62 /* KMPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMPViewController.h; sourceTree = "<group>"; };
 		6DCC6FE020915C8B0025AF62 /* KMPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMPViewController.m; sourceTree = "<group>"; };
 		6DDE8D3B209C675A008C405E /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
@@ -142,6 +148,8 @@
 		6D113EE9204E6E9900E9B5D0 /* SHReadThirdPartyLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				6D6C2B2120A2CA430095F1DB /* Vague */,
+				6DACFDA320A29B3F00ED9A4E /* Mask */,
 				6DDE8D3A209C675A008C405E /* YYFPSLabel */,
 				6D85A9CE2091BA3100D1DD1D /* RED-BLACK-TREE */,
 				6DCC6FDE20915C820025AF62 /* KMP */,
@@ -187,11 +195,29 @@
 			path = Echarts;
 			sourceTree = "<group>";
 		};
+		6D6C2B2120A2CA430095F1DB /* Vague */ = {
+			isa = PBXGroup;
+			children = (
+				6D6C2B2220A2CAAE0095F1DB /* UIImage+Vague.h */,
+				6D6C2B2320A2CAAE0095F1DB /* UIImage+Vague.m */,
+			);
+			path = Vague;
+			sourceTree = "<group>";
+		};
 		6D85A9CE2091BA3100D1DD1D /* RED-BLACK-TREE */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = "RED-BLACK-TREE";
+			sourceTree = "<group>";
+		};
+		6DACFDA320A29B3F00ED9A4E /* Mask */ = {
+			isa = PBXGroup;
+			children = (
+				6D6C2B1B20A29F460095F1DB /* SHMaskView.h */,
+				6D6C2B1C20A29F460095F1DB /* SHMaskView.m */,
+			);
+			path = Mask;
 			sourceTree = "<group>";
 		};
 		6DCC6FDE20915C820025AF62 /* KMP */ = {
@@ -393,9 +419,11 @@
 				6D113EEF204E6E9900E9B5D0 /* ViewController.m in Sources */,
 				6DDE8D3F209C675A008C405E /* HTTraffic.m in Sources */,
 				6D113EF5204E6E9900E9B5D0 /* SHReadThirdPartyLibrary.xcdatamodeld in Sources */,
+				6D6C2B1D20A29F460095F1DB /* SHMaskView.m in Sources */,
 				6D113EFD204E6E9900E9B5D0 /* main.m in Sources */,
 				6DCC6FE120915C8B0025AF62 /* KMPViewController.m in Sources */,
 				6DDE8D40209C675A008C405E /* YYFPSLabel.m in Sources */,
+				6D6C2B2420A2CAAE0095F1DB /* UIImage+Vague.m in Sources */,
 				6D113EEC204E6E9900E9B5D0 /* AppDelegate.m in Sources */,
 				6D310F2B20A1A575006AC33D /* YYTextWeakProxy.m in Sources */,
 				6D221E32206896C7005D5D42 /* SHEchartsViewController.m in Sources */,
