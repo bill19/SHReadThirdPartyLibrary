@@ -18,6 +18,10 @@
 		6D113F07204E6E9A00E9B5D0 /* SHReadThirdPartyLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D113F06204E6E9A00E9B5D0 /* SHReadThirdPartyLibraryTests.m */; };
 		6D113F12204E6E9A00E9B5D0 /* SHReadThirdPartyLibraryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D113F11204E6E9A00E9B5D0 /* SHReadThirdPartyLibraryUITests.m */; };
 		6D221E32206896C7005D5D42 /* SHEchartsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D221E31206896C7005D5D42 /* SHEchartsViewController.m */; };
+		6D310F2B20A1A575006AC33D /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D310F2920A1A575006AC33D /* YYTextWeakProxy.m */; };
+		6DCC6FE120915C8B0025AF62 /* KMPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCC6FE020915C8B0025AF62 /* KMPViewController.m */; };
+		6DDE8D3F209C675A008C405E /* HTTraffic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE8D3C209C675A008C405E /* HTTraffic.m */; };
+		6DDE8D40209C675A008C405E /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE8D3D209C675A008C405E /* YYFPSLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,14 @@
 		6D113F13204E6E9A00E9B5D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D221E30206896C7005D5D42 /* SHEchartsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHEchartsViewController.h; sourceTree = "<group>"; };
 		6D221E31206896C7005D5D42 /* SHEchartsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHEchartsViewController.m; sourceTree = "<group>"; };
+		6D310F2920A1A575006AC33D /* YYTextWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextWeakProxy.m; sourceTree = "<group>"; };
+		6D310F2A20A1A575006AC33D /* YYTextWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextWeakProxy.h; sourceTree = "<group>"; };
+		6DCC6FDF20915C8B0025AF62 /* KMPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMPViewController.h; sourceTree = "<group>"; };
+		6DCC6FE020915C8B0025AF62 /* KMPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMPViewController.m; sourceTree = "<group>"; };
+		6DDE8D3B209C675A008C405E /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		6DDE8D3C209C675A008C405E /* HTTraffic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTraffic.m; sourceTree = "<group>"; };
+		6DDE8D3D209C675A008C405E /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		6DDE8D3E209C675A008C405E /* HTTraffic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTraffic.h; sourceTree = "<group>"; };
 		7400C012E61A2E9DA4DA9200 /* Pods-SHReadThirdPartyLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHReadThirdPartyLibrary.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHReadThirdPartyLibrary/Pods-SHReadThirdPartyLibrary.release.xcconfig"; sourceTree = "<group>"; };
 		F7AF1ABE0EAC1C3835CAC792 /* libPods-SHReadThirdPartyLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHReadThirdPartyLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -130,6 +142,9 @@
 		6D113EE9204E6E9900E9B5D0 /* SHReadThirdPartyLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				6DDE8D3A209C675A008C405E /* YYFPSLabel */,
+				6D85A9CE2091BA3100D1DD1D /* RED-BLACK-TREE */,
+				6DCC6FDE20915C820025AF62 /* KMP */,
 				6D221E2F206896BC005D5D42 /* Echarts */,
 				6D113EEA204E6E9900E9B5D0 /* AppDelegate.h */,
 				6D113EEB204E6E9900E9B5D0 /* AppDelegate.m */,
@@ -172,6 +187,35 @@
 			path = Echarts;
 			sourceTree = "<group>";
 		};
+		6D85A9CE2091BA3100D1DD1D /* RED-BLACK-TREE */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "RED-BLACK-TREE";
+			sourceTree = "<group>";
+		};
+		6DCC6FDE20915C820025AF62 /* KMP */ = {
+			isa = PBXGroup;
+			children = (
+				6DCC6FDF20915C8B0025AF62 /* KMPViewController.h */,
+				6DCC6FE020915C8B0025AF62 /* KMPViewController.m */,
+			);
+			path = KMP;
+			sourceTree = "<group>";
+		};
+		6DDE8D3A209C675A008C405E /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6D310F2A20A1A575006AC33D /* YYTextWeakProxy.h */,
+				6D310F2920A1A575006AC33D /* YYTextWeakProxy.m */,
+				6DDE8D3B209C675A008C405E /* YYFPSLabel.h */,
+				6DDE8D3D209C675A008C405E /* YYFPSLabel.m */,
+				6DDE8D3E209C675A008C405E /* HTTraffic.h */,
+				6DDE8D3C209C675A008C405E /* HTTraffic.m */,
+			);
+			path = YYFPSLabel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -183,7 +227,6 @@
 				6D113EE3204E6E9900E9B5D0 /* Sources */,
 				6D113EE4204E6E9900E9B5D0 /* Frameworks */,
 				6D113EE5204E6E9900E9B5D0 /* Resources */,
-				AE048946405172F238D55010 /* [CP] Embed Pods Frameworks */,
 				69A2F97E0AB68FF44F7C4E46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -310,9 +353,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SHReadThirdPartyLibrary/Pods-SHReadThirdPartyLibrary-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/iOS-Echarts/iOS-Echarts.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/iOS-Echarts.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -325,28 +371,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SHReadThirdPartyLibrary-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		AE048946405172F238D55010 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SHReadThirdPartyLibrary/Pods-SHReadThirdPartyLibrary-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -357,9 +391,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D113EEF204E6E9900E9B5D0 /* ViewController.m in Sources */,
+				6DDE8D3F209C675A008C405E /* HTTraffic.m in Sources */,
 				6D113EF5204E6E9900E9B5D0 /* SHReadThirdPartyLibrary.xcdatamodeld in Sources */,
 				6D113EFD204E6E9900E9B5D0 /* main.m in Sources */,
+				6DCC6FE120915C8B0025AF62 /* KMPViewController.m in Sources */,
+				6DDE8D40209C675A008C405E /* YYFPSLabel.m in Sources */,
 				6D113EEC204E6E9900E9B5D0 /* AppDelegate.m in Sources */,
+				6D310F2B20A1A575006AC33D /* YYTextWeakProxy.m in Sources */,
 				6D221E32206896C7005D5D42 /* SHEchartsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

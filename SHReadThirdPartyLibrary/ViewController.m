@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SHEchartsViewController.h"
+#import "KMPViewController.h"
 
 @interface ViewController ()
 
@@ -23,10 +24,11 @@
     button.frame = CGRectMake(100, 100, 100, 100);
     [button addTarget:self action:@selector(buttonClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+
 }
 
 - (void)buttonClick {
-    [self.navigationController pushViewController:[[SHEchartsViewController alloc] init] animated:YES];
+    [self.navigationController pushViewController:[[KMPViewController alloc] init] animated:YES];
 }
 
 
