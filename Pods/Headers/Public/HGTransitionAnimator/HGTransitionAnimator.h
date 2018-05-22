@@ -1,0 +1,1 @@
+../../../HGTransitionAnimator/HGTransitionAnimator/HGTransitionAnimator/HGTransitionAnimator/HGTransitionAnimator.h

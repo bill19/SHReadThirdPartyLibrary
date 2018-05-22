@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2396A6631945464E812780D2E339FFA9"
-               BlueprintName = "SDWebImage"
+               BlueprintIdentifier = "96DF0F0CFD3471A1DDBA909DCE7AA48E"
+               BlueprintName = "HGTransitionAnimator"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libSDWebImage.a">
+               BuildableName = "libHGTransitionAnimator.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -18,5 +18,6 @@ pod 'SDWebImage', '~> 3.7.3'
 pod 'MJExtension'
 pod 'WCDB’
 pod 'iOS-Echarts', '~> 1.4.4'
+pod 'HGTransitionAnimator'
 end
 

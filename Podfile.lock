@@ -20,6 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - HGTransitionAnimator (0.1.2)
   - iOS-Echarts (1.4.4)
   - MJExtension (3.0.13)
   - SDWebImage (3.7.6):
@@ -31,6 +32,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.6.1)
+  - HGTransitionAnimator
   - iOS-Echarts (~> 1.4.4)
   - MJExtension
   - SDWebImage (~> 3.7.3)
@@ -39,6 +41,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - HGTransitionAnimator
     - iOS-Echarts
     - MJExtension
     - SDWebImage
@@ -46,11 +49,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  HGTransitionAnimator: b0a29f9d3249591179128872d850875e08c068de
   iOS-Echarts: dbc7423d861e5eedee78906a39d205b5c4da9a13
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   WCDB: 4d2926bf695b2e00d785b50afd32c2dcc8cbbd98
 
-PODFILE CHECKSUM: be9d8aeeab32dcb16e557bcfdc25f39d696c38fe
+PODFILE CHECKSUM: 6bb673d299108b68cf891d0779324d2b92f4ce7b
 
 COCOAPODS: 1.5.0
