@@ -23,9 +23,9 @@ PODS:
   - HGTransitionAnimator (0.1.2)
   - iOS-Echarts (1.4.4)
   - MJExtension (3.0.13)
-  - SDWebImage (3.7.6):
-    - SDWebImage/Core (= 3.7.6)
-  - SDWebImage/Core (3.7.6)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
   - WCDB (1.0.6):
     - WCDB/sqlcipher (= 1.0.6)
   - WCDB/sqlcipher (1.0.6)
@@ -35,7 +35,7 @@ DEPENDENCIES:
   - HGTransitionAnimator
   - iOS-Echarts (~> 1.4.4)
   - MJExtension
-  - SDWebImage (~> 3.7.3)
+  - SDWebImage (~> 4.3.3)
   - WCDB
 
 SPEC REPOS:
@@ -52,9 +52,9 @@ SPEC CHECKSUMS:
   HGTransitionAnimator: b0a29f9d3249591179128872d850875e08c068de
   iOS-Echarts: dbc7423d861e5eedee78906a39d205b5c4da9a13
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
-  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   WCDB: 4d2926bf695b2e00d785b50afd32c2dcc8cbbd98
 
-PODFILE CHECKSUM: 6bb673d299108b68cf891d0779324d2b92f4ce7b
+PODFILE CHECKSUM: 4b651bb8010ebcfc404990095547d919cdfb1da8
 
 COCOAPODS: 1.5.0

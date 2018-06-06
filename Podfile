@@ -14,7 +14,7 @@ platform :ios, "8.0"
 # pod库只存在当前目标
 target :"SHReadThirdPartyLibrary" do
 pod 'AFNetworking', '~> 2.6.1'
-pod 'SDWebImage', '~> 3.7.3'
+pod 'SDWebImage', '~> 4.3.3'
 pod 'MJExtension'
 pod 'WCDB’
 pod 'iOS-Echarts', '~> 1.4.4'
